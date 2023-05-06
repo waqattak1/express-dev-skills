@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Skills Index</title>
+  </head>
+  <body>
+    <h1>Skills Index</h1>
+    <ul>
+      <% skills.forEach(skill => { %>
+        <li><%= skill.skillName %> - <%= skill.info %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
